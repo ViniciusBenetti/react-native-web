@@ -1,19 +1,13 @@
-npm install -g expo 
+npm install -g expo-cli
 
-npx create-expo-app
+npx expo init videomanager
 
 package.json
 {
-  "name": "meu-app-expo50",
-  "license": "0BSD",
+  "name": "gerenciadordevideos",
+  "license": "MIT",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
   "dependencies": {
     "expo": "~52.0.46",
     "expo-status-bar": "~2.0.1",
