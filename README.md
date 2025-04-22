@@ -1,4 +1,4 @@
-npm install -g expo-cli
+npm install -g expo-cli v 6.3.12
 
 npx expo init videomanager
 
