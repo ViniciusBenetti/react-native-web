@@ -27,3 +27,28 @@ package.json
 npx expo start --web
 
 npx expo export --platform web
+
+
+https://nwjs.io
+outro package.json
+meu-app/
+├── nwjs/          (pasta com os arquivos do NW.js)
+├── package.json   (configuração do app)
+└── public/        (seus arquivos web)
+    ├── index.html
+    ├── script.js
+    └── style.css
+
+  {
+  "name": "meu-app",
+  "version": "1.0.0",
+  "main": "public/index.html",
+  "window": {
+    "title": "Meu App",
+    "width": 800,
+    "height": 600,
+    "icon": "public/icon.png"
+  }
+}
+  nwjs/nw.exe .
+
