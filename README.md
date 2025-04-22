@@ -1,1 +1,35 @@
-# react-native-web
+npm install -g expo 
+
+npx expo init appexemplo
+
+package.json
+{
+  "name": "meu-app-expo50",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~52.0.46",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.9",
+    "react-dom": "18.3.1",
+    "react-native-web": "~0.19.13",
+    "@expo/metro-runtime": "~4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
+
+
+npx expo start --web
+
+npx expo export --platform web
