@@ -1,6 +1,6 @@
 npm install -g expo 
 
-npx expo init appexemplo
+npx create-expo-app
 
 package.json
 {
